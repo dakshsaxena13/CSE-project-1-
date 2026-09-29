@@ -1,40 +1,21 @@
 # Tic Tac Toe Game
 
-Simple Tic Tac Toe game made in Python for practice.
+This is a simple Tic Tac Toe game made in Python. Two players can play it in the terminal.
 
-## About
+# How to play
 
-This is a basic 2 player Tic Tac Toe game that runs in the terminal.
-Made using basic python only (lists, functions, loops, if-else).
-No extra libraries needed.
+ Player 1 is X and Player 2 is O.
+The board has boxes numbered 1 to 9.
+Type the number of the box where you want to play.
+ If the box is already used, you have to choose again.
+If someone gets 3 in a row, that player wins.
+If nobody wins it is a draw.
 
-## How to Play
+# What I used
 
-1. Run the file:
-   ```
-   python tic_tac_toe.py
-   ```
-2. The board positions are numbered 1 to 9 like this:
+ Lists,Functions,While loop,If else conditions,etc.
 
-   ```
-   1 | 2 | 3
-   --+---+--
-   4 | 5 | 6
-   --+---+--
-   7 | 8 | 9
-   ```
+# Problems in my code
 
-3. Player 1 is **X** and Player 2 is **O**.
-4. Players take turns entering a number (1-9) to place their mark.
-5. First player to get 3 in a row (horizontal, vertical or diagonal) wins.
-6. If all 9 boxes get filled and no one wins, it's a draw.
-
-## Files
-
-- `tic_tac_toe.py` - the game code
-
-## Things I could add later
-
-- Play again option after game ends
-- Check for invalid input (like letters)
-- Play vs computer
+- If you type a letter instead of a number, the program stops.
+- If you type a number other between 1 and 9, it  not work.

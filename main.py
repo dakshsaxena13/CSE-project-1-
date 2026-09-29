@@ -1,5 +1,3 @@
-# Tic Tac Toe Game
-# Simple 2 player game made using python
 
 board = ["1","2","3","4","5","6","7","8","9"]
 
