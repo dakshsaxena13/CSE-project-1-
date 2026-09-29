@@ -9,7 +9,7 @@ The board has boxes numbered 1 to 9.
 Type the number of the box where you want to play.
  If the box is already used, you have to choose again.
 If someone gets 3 in a row, that player wins.
-If nobody wins it is a draw.
+If nobody wins it is a draw
 
 # What I used
 
